@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Filter = () => {
     const [product, setproduct]=useState([])
     useEffect (()=>{
-        fetch('product.json')
+        fetch('https://e-commerce-task-server-lake.vercel.app/product')
         .then((res)=>res.json())
         .then((data)=>setproduct(data))
         
@@ -12,9 +12,9 @@ const Filter = () => {
 
   const chair = product.filter((item) => item.category === "chair");
     return (
-        <div className='mx-auto grid grid-cols-3 gap-8'>
+        <div className='my-10 mx-auto grid grid-cols-3 gap-8'>
             {chair.map((products)=>(
-                <div key={products.id} className=" mx-auto border h-full w-96 rounded relative bg-slate-50 shadow-lg">
+                <div key={products._id} className=" mx-auto border h-full w-96 rounded relative bg-slate-50 shadow-lg">
                 <img
                   src={products.img}
                   className='w-full h-48 object-cover rounded mb-4'

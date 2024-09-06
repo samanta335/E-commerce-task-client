@@ -24,7 +24,7 @@ const ProductCard = ({products}) => {
             quantity,
             email: user.email,
           };
-          fetch("http://localhost:5000/carts", {
+          fetch("https://e-commerce-task-server-lake.vercel.app/carts", {
             method: "POST",
             headers: {
               "content-type": "application/json",

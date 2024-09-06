@@ -47,17 +47,15 @@ const Navbar = () => {
               <li>
                 <Link to="/products">Products</Link>
               </li>
-              <li>
-                <Link to="/classes">Classes</Link>
-              </li>
+              
             </ul>
           </div>
           <img
-            className="rounded-full w-16 h-12 pr-3 "
-            src="https://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo.jpg"
+            className="rounded-full w-12 h-12  "
+            src="https://img.freepik.com/premium-vector/letter-f-wing-logo-design-freight-transportation-symbol-wing-logotype-template_754537-6408.jpg"
             alt=""
           />
-          <a className=" text-2xl font-semibold">FurniFusion </a>
+          <a className=" text-2xl pl-3 font-semibold">FurniFusion </a>
         </div>
         <div className="navbar-center hidden  lg:flex">
           <ul className="menu menu-horizontal  text-base font-medium">
@@ -67,9 +65,7 @@ const Navbar = () => {
             <li>
             <Link to="/products">Products</Link>
             </li>
-            <li>
-              <Link to="/classes">Classes</Link>
-            </li>
+           
           </ul>
         </div>
         <div className="navbar-end lg:flex ">
