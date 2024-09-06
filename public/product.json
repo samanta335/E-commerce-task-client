@@ -1,0 +1,142 @@
+[
+    {
+"id":1,
+"img":"https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129805.jpg",
+"name":"chair",
+"price":280,
+"quantity":1,
+"old_price":350.00,
+"discount":"20% off",
+"description":"It has a backrest that can be tilted back, and often a footrest extended"
+    },
+    {
+        "id":2,
+        "img":"https://media.istockphoto.com/id/943910360/photo/posters-in-cozy-apartment-interior.jpg?s=612x612&w=0&k=20&c=QzNjsxCNMcFNxpn4E2ocPvSU8Ud2S3B_mHyo5L-HOLo=",
+        "name":"chair",
+        "price":52.00,
+        "quantity":1,
+        "old_price":95.00,
+        "discount":"20% off",
+        "description":"Lightweight, easy to clean, sturdy, safe and stable. Non-slip legs"
+            },
+            {
+                "id":3,
+                "img":"https://m.media-amazon.com/images/I/71IK0i5ecrL._AA360_AC_QL70_.jpg",
+                "name":"",
+                "price":75.00,
+                "quantity":0,
+                "old_price":150.00,
+                "discount":"20% off",
+                "description":"High Back Rocking Side Pocket Portable Folding Outdoor Camping Chairs "
+                    },
+                    {
+                        "id":4,
+                        "img":"https://magnoliahome.co.in/wp-content/uploads/2021/08/Jasper-Arm-Chair-1.1-1.jpg",
+                        "name":"",
+                        "price":210.00,
+                        "quantity":0,
+                        "old_price":300.00,
+                        "discount":"20% off",
+                        "description":"A seat, especially for one person, usually having four legs for support."
+                            },
+                            {
+                                "id":5,
+                                "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRIxAOflzdxlXUn15yT3g5weTbdycWZmtKg&s",
+                                "name":"",
+                                "price":395.00,
+                                "quantity":0,
+                                "old_price":450.00,
+                                "discount":"20% off",
+                                "description":"It has a backrest that can be tilted back, and often a footrest extended"
+                                    },
+                                    {
+                                        "id":6,
+                                        "img":"https://ouchcart.com/cdn/shop/products/Osiris_42.9_Wide_Tufted_Velvet_Swivel_Barrel_Chair.jpg?v=1721367725",
+                                        "name":"",
+                                        "price":180.00,
+                                        "quantity":0,
+                                        "old_price":250.00,
+                                        "discount":"20% off",
+                                        "description":"It has a backrest that can be tilted back, and often a footrest extended"
+                                            },
+                                            {
+                                                "id":7,
+                                                "img":"",
+                                                "name":"",
+                                                "price":19.00,
+                                                "quantity":0,
+                                                "old_price":35.00,
+                                                "discount":"20% off",
+                                                "description":"High Back Rocking Side Pocket Portable Folding Outdoor Camping Chairs "
+                                                    },
+                                                    {
+                                                        "id":8,
+                                                        "img":"",
+                                                        "name":"",
+                                                        "price":35.00,
+                                                        "old_price":50.00,
+                                                        "discount":"20% off",
+                                                        "description":"A seat, especially for one person, usually having four legs for support."
+                                                            },
+                                                            {
+                                                                "id":9,
+                                                                "img":"",
+                                                                "name":"",
+                                                                "price":420.00,
+                                                                "old_price":550.00,
+                                                                "discount":"20% off",
+                                                                "description":"It has a backrest that can be tilted back, and often a footrest extended"
+                                                                    },
+                                                                    {
+                                                                        "id":10,
+                                                                        "img":"",
+                                                                        "name":"",
+                                                                        "price":115.00,
+                                                                        "old_price":180.00,
+                                                                        "discount":"20% off",
+                                                                        "description":"High Back Rocking Side Pocket Portable Folding Outdoor Camping Chairs "
+                                                                            },
+                                                                             {
+"id":11,
+"img":"",
+"name":"",
+"price":220.00,
+"old_price":350.00,
+"discount":"20% off",
+"description":"A seat, especially for one person, usually having four legs for support."
+    },
+    {
+        "id":12,
+        "img":"",
+        "name":"",
+        "price":240.00,
+        "old_price":300.00,
+        "discount":"20% off",
+        "description":"Lightweight, easy to clean, sturdy, safe and stable. Non-slip legs"
+            },
+            {
+                "id":13,
+                "img":"",
+                "name":"",
+                "price":330.00,
+                "old_price":400.00,
+                "discount":"20% off",
+                "description":"Lightweight, easy to clean, sturdy, safe and stable. Non-slip legs"
+                    }, {
+                        "id":14,
+                        "img":"",
+                        "name":"",
+                        "price":65.00,
+                        "old_price":75.00,
+                        "discount":"20% off",
+                        "description":"A seat, especially for one person, usually having four legs for support."
+                            }, {
+                                "id":15,
+                                "img":"",
+                                "name":"",
+                                "price":190.00,
+                                "old_price":380.00,
+                                "discount":"20% off",
+                                "description":"High Back Rocking Side Pocket Portable Folding Outdoor Camping Chairs "
+                                    }
+]
