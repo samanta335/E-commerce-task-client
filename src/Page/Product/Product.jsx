@@ -8,13 +8,14 @@ import ProductCard from './ProductCard';
 const Product = () => {
     const [product, setproduct]=useState([])
 
-   
 useEffect (()=>{
     fetch('product.json')
     .then((res)=>res.json())
     .then((data)=>setproduct(data))
     
 },[])
+
+
     return (
         <div className="grid md:grid-cols-3 my-10 lg:my-16  gap-10">
             {
@@ -22,6 +23,7 @@ useEffect (()=>{
                    <ProductCard key={products.id} products={products}></ProductCard>
                 ))
             }
+            
         </div>
     );
 };

@@ -7,7 +7,7 @@ import Checkout from './CheckOut';
 const Cart = () => {
     const { cart, addToCart, removeFromCart,removeItem  } = useCarts()
     const [showCheckout, setShowCheckout] = React.useState(false);
-    const total = cart.map(( item) => item.price * item.quantity, 0);
+    const total =cart.reduce((total, item) => total + item.price * item.quantity, 0);
 
 
    

@@ -46,7 +46,7 @@ const ProductCard = ({products}) => {
             });
         } else {
           Swal.fire({
-            title: "Please login to order the item",
+            title: "Please login to order the Item",
             icon: "warning",
             showCancelButton: true,
             confirmButtonColor: "#3085d6",
@@ -68,7 +68,7 @@ const ProductCard = ({products}) => {
       alt="Shoes" />
   <div className="px-5">
    
-    <h2 className="text-2xl font-semibold mb-2">{products.name}</h2>
+    <h2 className="text-xl font-bold mb-2">{products.name}</h2>
 
     <div className='flex gap-4 mt-2'>
         <p className='font-semibold'>€{products.price}</p>
