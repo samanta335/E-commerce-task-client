@@ -1,5 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 
 const Main = () => {
@@ -11,7 +12,7 @@ const Main = () => {
     <div>
       {withoutHeaderFooter || <Navbar></Navbar>}
       <Outlet></Outlet>
-      {/* {withoutHeaderFooter || <Footer></Footer>} */}
+        {withoutHeaderFooter || <Footer></Footer>}
     </div>
   );
 };

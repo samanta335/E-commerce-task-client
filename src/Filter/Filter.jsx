@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Filter = () => {
     const [product, setproduct]=useState([])
+
     useEffect (()=>{
         fetch('https://e-commerce-task-server-lake.vercel.app/product')
         .then((res)=>res.json())
@@ -9,8 +10,8 @@ const Filter = () => {
         
     },[])
 
-
   const chair = product.filter((item) => item.category === "chair");
+  
     return (
         <div className='my-10 mx-auto grid grid-cols-3 gap-8'>
             {chair.map((products)=>(
